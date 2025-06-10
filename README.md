@@ -1,4 +1,4 @@
-# Welcome to My Mini Frontend Web Development Projects :wave:
+# Welcome to My  Frontend Web Development Projects :wave:
 
 This repository is a collection of several mini frontend web development projects, each demonstrating different aspects of HTML5, CSS3, JavaScript, and Bootstrap 4. Feel free to explore, learn, and contribute!
 
