@@ -12,6 +12,7 @@ A simple and interactive Todo List web application built using **HTML**, **CSS**
 
 ### 📦 Todo List in LocalStorage  
 ![Todo List LocalStorage](todolistLocalstorage.jpg)
+![todolistLocalstorage](https://github.com/user-attachments/assets/5acf6a86-92c9-4849-9af3-5c87c954a0d8)
 
 ---
 
