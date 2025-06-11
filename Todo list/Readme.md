@@ -1,54 +1,98 @@
-# Todo List App with DOM & localStorage
 
-Hey there! This is a simple web application that lets you add, mark as complete, and delete todo items. The best part? Your list is stored in your browser's localStorage, so your todos will still be there even if you reload the page!
+# 📋 Todo List App with DOM & localStorage
 
-## Features
+A simple and interactive Todo List web application built using **HTML**, **CSS**, and **Vanilla JavaScript**. The app allows users to add, mark as completed, delete, and persist todo items using the browser's localStorage.
 
-- Add new todo items
-- Mark todos as completed
-- Delete todo items
-- Persist data using localStorage
+---
 
-## Project Structure
+## 📸 Screenshots
 
-Here's a quick look at the key files in our project:
-
-- `index.html`: This is where all the magic begins!
-- `styles.css`: This file makes our app look pretty.
-- `app.js`: This is where we handle all the interactions and localStorage stuff.
-
-## Images
-
-Here's what our app looks like:
-
+### ✅ Todo List UI  
 ![Todo List UI](todolist.jpg)
+
+### 📦 Todo List in LocalStorage  
 ![Todo List LocalStorage](todolistLocalstorage.jpg)
 
-## Code Explanation
+---
 
-Here's a quick rundown of how our app works:
+## ✨ Features
 
-- `getTodoListFromLocalStorage`: This function fetches and parses the todo list from localStorage.
-- `createAndAppendTodo`: This function dynamically adds todo items to the DOM.
-- `onAddTodo`, `onTodoStatusChange`, and `onDeleteTodo`: These functions handle adding todos, marking them as complete, and deleting them.
-- `saveTodoButton`: This button saves the todo list to localStorage.
+- ✅ Add new todo items
+- ✅ Mark todos as completed
+- ✅ Delete todo items
+- ✅ Persist data using **localStorage**
+- ✅ Smooth, dynamic DOM updates without page reloads
 
-## How to Run
+---
 
-Running our app is as easy as pie:
+## 📁 Project Structure
 
-1. Open `index.html` in your favorite browser.
-2. Enter a todo in the input field.
-3. Click "Add" to append it to the list.
-4. Check the box next to a todo to mark it as done.
-5. Click the trash icon to delete a todo.
-6. Click "Save" to store your todo list in localStorage.
+```plaintext
+📦 Todo-List-App/
+ ┣ 📄 index.html
+ ┣ 📄 styles.css
+ ┣ 📄 script.js
+ ┣ 📄 todolist.jpg
+ ┣ 📄 todolistLocalstorage.jpg
+ ┗ 📄 README.md
+```
 
-## Technologies Used
+---
 
-We built our app using some cool technologies:
+## ⚙️ Code Overview
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
-- Font Awesome for those neat little icons
+### 📌 getTodoListFromLocalStorage()
+- Fetches the todo list from localStorage.
+- Parses it from JSON to an array.
+- If not found, initializes with an empty list.
+
+### 📌 createAndAppendTodo(todo)
+- Dynamically creates a `<li>` element for each todo.
+- Adds a checkbox, label, and delete icon.
+- Binds event listeners for status change and deletion.
+
+### 📌 onAddTodo()
+- Retrieves user input.
+- Validates input.
+- Creates a new todo object.
+- Updates the DOM and todo list array.
+
+### 📌 onTodoStatusChange(checkboxId, labelId)
+- Toggles the `.checked` class on the corresponding label when checkbox is clicked.
+
+### 📌 onDeleteTodo(todoId)
+- Removes the todo from the DOM.
+- Removes the todo from the array.
+- Updates localStorage on save.
+
+### 📌 saveTodoButton
+- Saves the current state of todoList to localStorage in JSON format.
+
+---
+
+## 🚀 How to Run
+
+1. Clone/download the repository.
+2. Open `index.html` in any modern web browser.
+3. Type a task in the input box.
+4. Click **Add** to create a new todo.
+5. Mark it complete by checking the box.
+6. Delete an item by clicking the trash icon.
+7. Click **Save** to store the list in localStorage.
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla JS)**
+- **Font Awesome** (for delete icons)
+
+---
+
+## 👨‍💻 Author
+
+Koushik
+
+---
