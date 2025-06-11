@@ -8,10 +8,11 @@ A simple and interactive Todo List web application built using **HTML**, **CSS**
 ## 📸 Screenshots
 
 ### ✅ Todo List UI  
-![Todo List UI](todolist.jpg)
+![todolist](https://github.com/user-attachments/assets/bcc9d5fb-e84c-4a0d-8a7d-aa71d559c391)
+
 
 ### 📦 Todo List in LocalStorage  
-![Todo List LocalStorage](todolistLocalstorage.jpg)
+
 ![todolistLocalstorage](https://github.com/user-attachments/assets/5acf6a86-92c9-4849-9af3-5c87c954a0d8)
 
 ---
